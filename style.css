@@ -1,0 +1,1453 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0px auto;
+    padding: 0px;
+}
+.container1 {
+    //border: 1px solid rgb(201, 238, 37);
+    width: 100%;
+    height: 130vh;
+}
+.section1 {
+    //border: 1px solid black;
+    width: 100%;
+    height: 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sec1left {
+    //border: 1px solid black;
+    width: 350px;
+    height: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 50px;
+} 
+.sec1right {
+    //border: 1px solid black;
+    width: 400px;
+    height: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 50px;
+} 
+.sec1righta {
+    text-decoration: none;
+    color: black;
+    background-color:#F89D35;
+    width: 150px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: white;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+.sec1righta:hover{
+    background-color: #863BAE;
+}
+.linenav {
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+}
+.sec1left p {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 14px;
+    color: grey;
+}
+.section2 {
+    //border: 1px solid black;
+    width: 100%;
+    height: 13%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.sec2left {
+    //border: 1px solid black;
+    width: 300px;
+    height: 100%;
+}
+.sec2right {
+    //border: 1px solid black;
+    width: 800px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec2right ul {
+    display: flex;
+}
+.sec2right ul li {
+    list-style: none;
+}
+.sec2right ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    margin: 20px;
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+.sec2right ul li a:hover {
+    color: #F89D35;
+}
+.section3 {
+    //border: 1px solid black;
+    width: 100%;
+    height: 80%;
+    background-image: url(image/pexels-photo-5909870.jpeg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section3 h1 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 300;
+}
+.section3 h2 {
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    font-family: 'Bitter', serif;
+    width: 600px;
+    letter-spacing: -2px;
+    margin-top: 30px;
+    line-height: 80px;
+}
+.section3 p {
+    font-size: 20px;
+    color: rgb(211, 209, 209);
+    text-align: center;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 100;
+    width: 600px;
+    margin-top: -20px;
+}
+.sec3text {
+    //border: 1px solid black;
+    height: 400px;
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    line-height: -30px;
+}
+.sec3texta {
+    text-decoration: none;
+    color: black;
+    background-color:#F89D35;
+    width: 160px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.sec3texta:hover {
+    background-color: #863BAE;
+}
+.container2 {
+    //border: 1px solid rgb(240, 17, 17);
+    width: 100%;
+    height: 120vh; /* guess this to adds unnecessary space at the top*/
+    margin-top: 130px; /* UNNECESSARY MARGIN TOP GIVEN HERE */
+}
+.section4 {
+    //border: 1px solid black;
+    width: 100%;
+    height: 35%;
+}
+.section4 {
+    /border: 1px solid black;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section5 {
+    //border: 1px solid black;
+    width: 100%;
+    height: 60%;
+    //background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec4left {
+    //border: 1px solid black;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    //align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.sec4left p {
+    font-size: 20px;
+    color: #F89D35;
+    font-family: 'Maven Pro', sans-serif;
+    letter-spacing: 1px; 
+    margin-top: 50px;   
+}
+.sec4left h1 {
+    font-size: 40px;
+    color: black;
+    font-family: 'Bitter', serif;
+    margin-top: -5px;
+}
+.sec4right {
+    //border: 1px solid black;
+    width: 700px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec4right p {
+    font-size: 16px;
+    font-family: 'Maven Pro', sans-serif;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: gray;
+    width: 550px;
+}
+.sec5box {
+    //border: 1px solid black;
+    width: 280px;
+    height: 350px;
+    margin: 15px;
+}
+.sec5box1 {
+    //border: 1px solid black;
+    width: 100%;
+    height: 50%;
+}
+.sec5box2 {
+    //border: 1px solid black;
+    width: 100%;
+    height: 50%;
+}
+.sec5box2 h1 {
+    font-size: 25px;
+    color: black;
+    font-family: 'Bitter', serif;    
+}
+.sec5box2 p {
+    font-size: 16px;
+    font-family: 'Maven Pro', sans-serif;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: gray;    
+    width: 90%;
+}
+.sec5box1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container3 {
+    //border: 1px solid rgb(240, 17, 17);
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    //justify-content: center;
+    //align-items: center;
+    margin-top: 50px;
+}
+.section6 {
+    //border: 1px solid black;
+    width: 55%;
+    height: 100%;
+    background-color: #070503;
+    position: relative;
+}
+section7 {
+    //border: 1px solid black;
+    width: 45%;
+    height: 100%;
+}
+.section8 {
+    //border: 1px solid black;
+    width: 80%;
+    height: 550px;
+    //background-color: #F89D35;
+    position: absolute;
+    top: 300px;
+}
+.sec81 {
+    //border: 1px solid black;
+    width: 900px;
+    height: 400px;
+    position: absolute;
+    left: 280px;
+}
+.sec82 {
+    //border: 1px solid black;
+    width: 900px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 642px;
+    left: 280px;
+}
+.section6 h1 {
+    font-family: 'Bitter', serif;
+    color: white;
+    font-size: 53px;
+    width: 650px;
+    margin-top: 80px;    
+    margin-left: 120px;
+    letter-spacing: -1px;
+}
+.sec82a {
+    //border: 1px solid black;
+    width: 100%;
+    height: 70%;
+    //background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sec82b {
+    //border: 1px solid black;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 230px;
+}
+.sec81 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.sec82a h1 {
+    font-size: 55px;
+    font-family: 'Bitter', serif;
+    color: #F89D35;    
+}
+.sec82b p {
+    font-size: 16px;
+    font-family: 'Maven Pro', sans-serif;
+    letter-spacing: -1px;
+    line-height: 25px;
+    color: gray;    
+    width: 200px;
+}
+.container4 {
+    width: 100%;
+    height: 220vh;
+    //border: 1px solid black;
+    display: flex;
+    //justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section9 {
+    //border: 1px solid black;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.section10 {
+    //border: 1px solid black;
+    width: 100%;
+    height: 700px;
+}
+.section9 p {
+    font-size: 20px;
+    font-weight: 100px;
+    font-family: 'Maven Pro', sans-serif;
+    color: #F89D35;
+    margin-top: 100px;
+}
+.section9 h1 {
+    font-size: 50px;
+    font-family: 'Bitter', serif;
+    width: 900px;    
+    text-align: center;
+    margin-top: -15px;
+    letter-spacing: -1px;
+}
+.sec10box {
+    //border: 1px solid black;
+    width: 95%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px auto;
+}
+.sec10box1 {
+    //border: 1px solid black;
+    width: 400px;
+    height: 220px;
+}
+.sec10box1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.section11 {
+    //border: 1px solid black;
+    width: 93%;
+    height: 320px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.sec11 {
+    //border: 1px solid black;
+    width: 600px;
+    height: 300px;
+}
+.sec11 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container5 {
+    width: 100%;
+    height: 200vh;
+    //border: 1px solid black;
+    display: flex;
+    //justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.section12 {
+    //border: 1px solid black;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line {
+    width: 70%;
+    height: 1px;
+    background-color: rgb(177, 174, 174);
+    margin-top: 120px;
+}
+.section13 {
+    //border: 1px solid black;
+    width: 100%;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.section13 p {
+    font-size: 18px;
+    font-family: 'Maven Pro', sans-serif;    
+    color: rgb(150, 148, 148);
+    font-weight: 100;
+    width: 700px;
+    text-align: center;
+    margin-top: 30px;
+    margin-top: 0px;
+}
+.section13 h2 {
+    font-size: 40px;
+    font-family: 'Bitter', serif;
+    width: 550px;
+    text-align: center;
+    margin-top: 0px;
+    letter-spacing: -1px;
+}
+.section13 h1 {
+    color: #F89D35;
+    margin-top: 20px;
+    font-family: 'Maven Pro', sans-serif;    
+    font-size: 18px;
+}
+.section14 {
+    //border: 1px solid black;
+    width: 95%;
+    height: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sec14 {
+    border: 0.1px solid rgb(236, 234, 234);
+    width: 350px;
+    height: 680px;
+    transition: 0.5s;
+}
+.sec141 {
+    //border: 1px solid black;
+    width: 100%;
+    height: 40%;
+    //background-color: red;
+}
+.sec142 {
+    //border: 1px solid black;
+    width: 100%;
+    height: 60%;
+    //background-color: rebeccapurple;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.sec142 h1 {
+    font-family: 'Bitter', serif;    
+    font-size: 30px;
+    text-transform: capitalize;    
+    margin-top: 60px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.sec142 h2 {
+    font-family: 'Maven Pro', sans-serif;    
+    font-size: 20px;
+    text-transform: capitalize;    
+}
+.sec142 p {
+    font-family: 'Maven Pro', sans-serif;    
+    font-size: 18px;
+    text-transform: capitalize;    
+    letter-spacing: -1px;
+    line-height: 30px;
+    width: 270px;
+}
+.sec142 h2 {
+    font-family: 'Maven Pro', sans-serif;    
+    font-size: 18px;
+    text-transform: capitalize;    
+    letter-spacing: -1px;
+    line-height: 30px;
+    width: 270px;
+}
+.sec142a {
+    text-decoration: none;
+    color: black;
+    background-color:#F89D35;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.line1 {
+    width: 300px;
+    height: 1px;
+    background-color: rgb(224, 218, 218);
+}
+.line2 {
+    width: 300px;
+    height: 1px;
+    background-color: rgb(224, 218, 218);
+}
+.sec141 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sec142 h3 {
+    font-family: 'Bitter', serif;    
+    font-size: 30px;
+    text-transform: capitalize;    
+    margin-top: 60px;    
+    transition: 0.5s;
+    cursor: pointer;
+}
+.sec142p p  {
+    font-family: 'Maven Pro', sans-serif;    
+    font-size: 18px;
+    text-transform: capitalize;    
+    letter-spacing: -1px;
+    line-height: 30px;
+    width: 270px;
+    font-weight: 100px;
+    margin-top: -26px;    
+}
+.sec142 h1:hover {
+    color: #F89D35;
+}
+.sec142 h3:hover {
+    color: #F89D35;
+}
+.sec142a:hover{
+    background-color: #863BAE;
+}
+.sec14:hover {
+    box-shadow: box-shadow: 2px 2px 21px -8px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 2px 21px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 21px -8px rgba(0,0,0,0.75);;
+}
+.container6 {
+    //border: 1px solid rgb(201, 238, 37);
+    width: 100%;
+    height: 130vh;
+    background-image: url(image/pexels-photo-4602359.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section15 {
+    //border: 1px solid black;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    //justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.section15 h1 {
+    font-family: 'Bitter', serif;    
+    font-size: 50px;
+    text-transform: capitalize;    
+    margin-top: 60px;    
+    transition: 0.5s;
+    cursor: pointer;    
+    color: white;
+    width: 600px;
+    text-align: center;
+}
+.sec15a {
+    text-decoration: none;
+    color: black;
+    background-color:#F89D35;
+    width: 200px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 0.5s;    
+}
+.sec15a:hover {
+    background-color: #863BAE;
+}
+.container7 {
+    //border: 1px solid black;
+    width: 100%;
+    height: 140vh;
+}
+.section16 {
+    //border: 1px solid black;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.section16 h1 {
+    font-family: 'Bitter', serif;    
+    font-size: 15px;
+    text-transform: capitalize;        
+    color: #F89D35;
+    text-align: center;
+    margin-top: 40px;
+}
+.section16 h2 {
+    font-family: 'Bitter', serif;    
+    font-size: 50px;
+    text-transform: capitalize;    
+    color: black;
+    width: 600px;
+    text-align: center;
+    margin-top: -40px;
+    letter-spacing: -1px;
+}
+.section17 {
+    //border: 1px solid black;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sec17 {
+    border: 0.1px solid rgb(236, 234, 234);
+    width: 400px;
+    height: 500px;
+    transition: all 0.5s;
+    //background-color: aqua;
+}
+.sec17a {
+    //border: 1px solid black;
+    width: 100%;
+    height: 50%;
+}
+.sec17b {
+    //border: 1px solid black;
+    width: 100%;
+    height: 50%;
+}
+.sec17b h1 {
+    text-transform: uppercase;
+    color: #F89D35;
+    font-family: 'Bitter', serif;    
+    font-size: 15px;
+    margin-left: 30px;
+}
+.sec17b h2 {
+    text-transform: capitalize;
+    font-family: 'Bitter', serif;
+    width: 420px;
+    letter-spacing: 1px;
+    line-height: 35px;
+    margin-left: 30px;
+    transition: all 0.5s;
+    cursor: pointer;
+    letter-spacing: 0px;
+    width: 350px;
+}
+.sec17b p {
+    font-family: 'Maven Pro', sans-serif;    
+    font-size: 17px;
+    width: 300px;
+    letter-spacing: 1px;
+    line-height: 30px; 
+    text-transform: capitalize; 
+    opacity: 0.6;
+    margin-left: 30px;  
+}
+.sec17a img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sec17:hover {
+    box-shadow: box-shadow: 2px 2px 21px -8px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 2px 21px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 21px -8px rgba(0,0,0,0.75);;
+}
+.sec17b h2:hover {
+    color: #F89D35;
+}
+.container8 {
+    //border: 1px solid black;
+    width: 100%;
+    height: 190vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+.section18 {
+    //border: 1px solid black;
+    width: 52%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.section19 {
+    //border: 1px solid black;
+    width: 48%;
+    height: 100%;
+    background-color: #863BAE;
+}
+.section19 p {
+    font-size: 20px;
+    font-family: 'Maven Pro', sans-serif;
+    color: white;    
+    margin-left: 80px;
+    margin-top: 150px;
+}
+.section19 h1 {
+    font-size: 55px;
+    color: white;
+    font-family: 'Bitter', serif;
+    width: 300px; 
+    margin-top: -20px;   
+    margin-left: 80px;
+    line-height: 70px;
+}
+.name {
+    width: 450px;
+    padding: 16px;
+    border-radius: 5px;
+    outline: none;
+    margin: 10px;
+    margin-left: 80px;
+    font-size: 17px;
+    font-family: 'Maven Pro', sans-serif;
+    border: 1px solid white;
+    transition: all 0.5s;
+}
+.message {
+    margin-left: 80px;
+    font-size: 17px;
+    font-family: 'Maven Pro', sans-serif;
+    width: 450px;
+    height: 200px;
+    margin-top: 15px;
+    outline: none;   
+    border-radius: 5px;
+    border: 1px solid white;
+}
+.name:focus, .message:focus {
+    border: 1px solid #F89D35;
+}
+.sec18 {
+    //border: 1px solid black;
+    width: 550px;
+    height: 9s00px;
+    margin-top: 180px;
+}
+.sec18 img {
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+}
+.sec18 h1 {
+    font-family: 'Bitter', serif;
+    font-size: 50px;
+    line-height: 55px;    
+}
+.sec18 p {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 18px;
+    color: gray;
+    line-height: 30px;    
+}
+.sec18 h2 {
+    font-family: 'Bitter', serif;
+    font-size: 30px;
+    line-height: 55px;    
+}
+.sec18logo {
+    //border: 1px solid black;
+    width: 100%;
+    height: 230px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sec18logo img {
+    width: 150px;
+    height: 70px;
+    object-fit: cover;
+    padding: 10px;
+    margin-left: 20px;
+}
+.sec19a {
+    text-decoration: none;
+    color: black;
+    background-color:#F89D35;
+    width: 180px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 0.5s;    
+}
+.sec19a:hover {
+    background-color: #863BAE;
+    border: 2px solid #F89D35;
+}
+.container9 {
+    border: 1px;
+    width: 100%;
+    height: 100vh;
+    background-color: #0A0A0A;
+}
+.section20 {
+    //border: 1px solid black;
+    width: 100%;
+    height: 500px;
+    background-color: ;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.sec201 {
+    //border: 1px solid black;
+    width: 300px;
+    height: 380px;
+    margin: 10px;
+}
+.sec202 {
+    //border: 1px solid black;
+    width: 250px;
+    height: 380px;
+    margin: 10px;
+}
+.sec203 {
+    //border: 1px solid black;
+    width: 300px;
+    height: 380px;
+    margin: 10px;
+}
+
+.sec204 {
+    //border: 1px solid black;
+    width: 300px;
+    height: 380px;
+    margin: 10px;
+}
+.sec201 h1, .sec203 h1, .sec204 h1  {
+    font-size: 25px;
+    font-family: 'Bitter', serif;
+    color:white;   
+}
+.sec201 p, .sec203 p {
+    font-size: 16px;
+    font-family: 'Maven Pro', sans-serif;
+    line-height: 30px;
+    color: rgb(173, 166, 166);
+}
+span {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 16px;
+    margin: 10px;
+    color: white;
+}
+span1 {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 16px;
+    margin: 10px;
+    color: white;
+}
+.sec201logo {
+    border: 0.1px solid rgb(124, 117, 117);
+    padding: 17px;
+    margin-top: 30px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.sec201logo:hover {
+    background-color: #F89D35;
+    color: white;
+    border: 1px solid #F89D35;
+}
+.sec202 ul li {
+    list-style: none;
+}
+.sec202 ul li a {
+    text-decoration: none;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 20px;
+    font-size: 900;
+    line-height: 50px;
+    transition: all 0.5s;
+    text-transform: capitalize;
+    color: white;
+}
+.sec202 h1 {
+    font-size: 25px;
+    font-family: 'Bitter', serif;
+    color: white;    
+    margin-left: 35px;
+}
+.sec202 a:hover {
+    color: #F89D35;
+}
+.sec203form {
+    outline: none;
+    font-size: 15px;
+    padding: 10px;
+    width: 280px;
+    height: 60px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    border: 1px solid white;
+    //transition: all 0.5s;
+    margin-top: 20px;
+}
+.sec203form:focus {
+    border: 2px solid #F89D35;
+}
+.sec203a{
+    text-decoration: none;
+    color: black;
+    background-color:#F89D35;
+    width: 150px;
+    height: 50px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 0.5s;    
+}
+.sec203a:hover {
+    background-color: #863BAE;
+}
+.gallery {
+    margin-top: 20px;
+    //border: 1px solid black;
+    width: 97%;
+    height: 190px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.gallery img {
+    width: 80px;
+    height: 85px;
+    object-fit: cover;
+}
+.sec21line {
+    width: 90%;
+    height: 1px;
+    //border: 1px solid gainsboro;
+    background-color: gray;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.section21 p {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 18px;    
+    margin-top: 30px;
+    margin-left: 400px;
+    color: rgb(240, 240, 240);
+}
+.section21 span {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    color: #F89D35;
+}
+
+/* media query for mobile device */
+
+@media only screen and (max-width:480px) {
+
+
+    .container1{
+        width:480px;
+    }
+    
+    /* SECTION 1 -- donate now button section */
+
+    .section1 {
+        flex-direction:column;
+        margin-bottom:20px;
+        width:100%;
+    }
+
+
+    .sec1left {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .sec1right {
+        justify-content:space-between;
+        width: 100%;
+        
+    }
+
+    /* SECTION 2 -- NAV buttons and LOGO section */
+
+    .section2{
+        width:480px;
+    }
+
+    .section2 .sec2right{
+        display:none;
+    }
+
+    /* SECTION 3 -- BANNER section */
+
+    .section3{
+        width:480px;
+        height:450px;
+        background-size:cover;
+        margin-top:0px;
+    }
+
+
+        .section3 .sec3text {
+            width:480px;
+        }
+
+        .section3 .sec3text p {
+            width: 480px;
+            font-weight:600;
+        }
+
+    /* h1 SHOULD NOT BE USED FOR SMALLER TEXT, SPAN SHOULD BE USED */
+
+    .section3 .sec3text h1{
+        font-size:20px;
+    }
+
+        .section3 .sec3text h2 {
+            font-size: 40px;
+        }
+
+        /* SECTION - 4 */
+
+        .container2{
+            margin-top:-200px; /*whitespace above container reduces, only if margin top is given in -ve and not 0, should check this*/
+            width:480px;
+        }
+
+        .container2 .section4{
+            //background-color:yellow; /* for testing purpose */
+            width:100%; 
+            flex-direction:column;
+            align-items:center; 
+            justify-content:flex-start;
+            height:40%;
+
+        }
+
+
+    .container2 .section4 .sec4left h1{
+        font-size:20px;
+    }
+
+            .container2 .section4 .sec4left p {
+                font-size: 16px;
+            }
+
+            .container2 .section4 .sec4right p {
+                font-size: 16px;
+            }
+
+/*SECTION 5 */
+
+   .container2 .section5 {
+       //background-color:yellow; /*for testing*/
+       flex-wrap:wrap;
+       justify-content:space-between;
+       height:90%;
+       
+   }
+
+   .container2 .section5 .sec5box {
+       width:200px;
+   }
+
+
+/*SECTION 6 */
+
+.container3{
+    height:630px;
+    width:480px;
+}
+
+.container3 .section6{
+    margin-top:300px; /* for testing purpose, should be modified */
+    width:480px;
+}
+
+    .container3 .section6 h1{
+        font-size:30px;
+        margin-left:0px;
+        margin-top:60px;
+        padding-bottom:20px;
+    }
+
+    .container3 .section6 .sec81{
+        width: 480px;
+        left:0px;
+    }
+
+    .container3 .section6 .sec81 img{
+        height:80%;
+        width:90%;
+    }
+
+    .container3 .section6 .sec82 {
+        width: 480px;
+        left:0px;
+        top:450px;
+    }
+
+    .container3 .section6 .sec82b {
+        width: 480px;
+        left: 0px;
+        top: 450px;
+        margin-left:0px;
+    }
+
+    .container3 .section6 .sec82b p{
+        width: 100px;
+    }
+
+    .container4{
+        width:480px;
+    }
+
+        .container4 .section9 {
+            margin-top:250px;
+            //background-color:yellow; 
+            height:300px;
+            width:480px;
+        }
+
+    .container4 .section9 h1{
+        font-size:26px;
+        width:480px;
+        margin-top:5px;
+    }
+
+    .sec10box{
+        width:480px;
+        //background-color:yellow;
+    }
+
+    .sec10box .sec10box1{
+        width:100%;
+        margin-bottom:10px;
+    }
+
+    .sec10box1 .x{
+        display:none;
+    }
+
+    .section11{
+        //margin-top:400px;
+    }
+
+    .container5 .section13{
+        margin-top:180px;
+    }
+
+    .container5{
+        width:480px;
+    }
+
+    .container5 .section13 h2{
+        font-size:26px;
+    }
+
+        .container5 .section13 p {
+            width: 480px;
+        }
+
+        .section14{
+            flex-direction:column;
+            width:480px;
+        }
+
+        .container6{
+            margin-top:1200px; /* FOR TESTING, SHOULD CHANGE THIS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+            width:480px;
+        }
+
+        .sec14{
+            margin-bottom:50px; 
+        }
+
+        .container6{
+            height:65vh;
+        }
+
+        .section15 h1{
+            font-size:26px;
+            width:400px;
+        }
+
+        .sec15a{
+            padding:8px 10px;
+            margin-top:5px;
+        }
+
+        .container7{
+            width:480px;
+            height:100vh;
+        }
+
+        .section16 h2{
+            font-size:36px;
+            width:480px;
+            margin-top:0px;
+            margin-bottom:120px;
+        }
+
+        .section17{
+            flex-direction:column; 
+            margin-top:400px;
+        }
+
+        .sec17{
+            margin-bottom:30px;
+        }
+
+        .container8{
+            margin-top:1400px; /* SHOULD CHANGE THIS!!! ONLY FOR TESTING PURPOSES */
+            border:0px solid red;
+            flex-direction:column;
+            width:480px;
+            padding-bottom:20px;
+        }
+
+        .section18{
+            width:100%;
+        }
+
+        .sec18{
+            width:100%;
+        }
+
+        .sec18 h1{
+            font-size:36px;
+        }
+
+        .sec18logo{
+            margin-bottom:20px;
+        }
+
+        .sec18logo img{
+            width:200px;
+            border:1px solid black;
+        }
+
+        .section19{
+            width:100%;  
+        }
+
+        .section19 h1{
+            margin-left:0px;
+            margin-top:0px;
+        }
+
+            .section19 p {
+                margin-left: 0px;
+            }
+
+            .name{
+                margin-left:5px;
+            }
+
+            .message{
+                margin-left:5px;
+            }
+
+            form{
+                //padding-bottom:50px;
+            }
+
+            .sec19a{
+                margin-left:5px;
+            }
+
+
+
+        .container9{
+            margin-top:500px;
+            height:200vh;
+            width:480px;
+        }
+
+        .section20{
+            flex-direction:column;
+            width:100%;
+            height:100%;
+            align-items:flex-start;
+        }
+
+        .section21{
+            //width:100%;
+            display:none;
+        }
+
+        .sec201, .sec202, .sec203, .sec204, .sec205{
+            width:100%;
+        }
+
+        .sec202 h1{
+            margin-left:0px;
+        }
+
+            .sec202 li {
+                margin-left: 0px;
+            }
+
+            .section21{
+                margin-top:300px;
+            }
+
+           .wrapper{
+               border:1px solid black;
+           }
+
+           .sec11{
+               display:none;
+           }
+
+           
+    
+}
